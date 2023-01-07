@@ -1,0 +1,16 @@
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --Azul-escuro: #002F52;
+    --Azul: #326589;
+    --Amarelo: #EB9B00;
+    --Background-1: #E5E5E5;
+    --Background-2: #EBECEE;
+    --fonte-rodape-1: #858585;
+    --fonte-rodape-2: #474646;
+}
+
+body {
+    background: var(--Background-1);
+    color: var(--preto);
+}
