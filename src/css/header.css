@@ -1,0 +1,43 @@
+.cabecalho {
+    background: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+}
+
+.container__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    padding: 1rem;
+}
+
+#menu {
+    display: none;
+}
+
+.menu__lista {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container__botao:checked~.menu__lista {
+    display: block;
+}
+
+.container__logo {
+    padding: 0 1rem;
+}
+
+.container__icone {
+    padding: 1rem;
+}
