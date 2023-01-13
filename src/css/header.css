@@ -28,6 +28,24 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
+}
+
+.menu__lista-titulo,
+.menu__lista-item {
+    background: var(--branco);
+    padding: 1rem;
+}
+
+.menu__lista-titulo {
+    color: var(--laranja);
+}
+
+.menu__lista-link {
+    background: var(--Azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .container__botao:checked~.menu__lista {
