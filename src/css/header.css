@@ -39,6 +39,7 @@
 
 .menu__lista-titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .menu__lista-link {
